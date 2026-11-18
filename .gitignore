@@ -1,0 +1,15 @@
+# No publicar datos de trabajo, copias privadas ni credenciales.
+.env
+.env.*
+!.env.example
+.DS_Store
+node_modules/
+*.log
+datos/
+uploads/
+backups/
+.openai/
+*.csv
+!docs/plantilla-incidentes.csv
+*.zip
+*.tar.gz
